@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="90185DA5-10E6-0CCD-2B33-23F9E4B480E3" name="MARCA">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-02 22:19:47 UTC</createdTime>
+<generatorID>1721B4BF-9579-7C50-B4A6-A7645C452C65</generatorID>
+<ownerDesignName>TAREA_SEMANA_4_TALLER_MECANICO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_MARCA" id="24A06F95-D8ED-9497-231A-E5C3505EA66F">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-02 22:19:47 UTC</createdTime>
+<generatorID>D36D9876-9122-3EA7-35CB-0E9DF72B74E0</generatorID>
+<ownerDesignName>TAREA_SEMANA_4_TALLER_MECANICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_MARCA" id="EF50BA5B-1CB0-B046-9439-7C8238918725">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-02 22:19:47 UTC</createdTime>
+<generatorID>B8BE05DF-B53A-DFCD-4330-EBC1A265336F</generatorID>
+<ownerDesignName>TAREA_SEMANA_4_TALLER_MECANICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A42CC18B-5F12-CE43-810E-CD2609C89A25" name="MARCA_PK">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-02 22:19:47 UTC</createdTime>
+<generatorID>C7C0C328-7541-7595-D3CD-982FFE949521</generatorID>
+<ownerDesignName>TAREA_SEMANA_4_TALLER_MECANICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24A06F95-D8ED-9497-231A-E5C3505EA66F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

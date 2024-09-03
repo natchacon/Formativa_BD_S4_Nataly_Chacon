@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FE8DAA8C-C95E-54E3-78C0-F27BE5C095DC" name="CONTACTO">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-02 22:19:47 UTC</createdTime>
+<generatorID>B42A2921-58EE-FA41-DA2D-CBFA7964043A</generatorID>
+<ownerDesignName>TAREA_SEMANA_4_TALLER_MECANICO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CONTACTO" id="93224E9C-1D81-CD0D-9B7B-38ADCFE6BEA7">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-02 22:19:47 UTC</createdTime>
+<generatorID>71EF6C4E-A946-BBBA-019A-D210B0DAD9D0</generatorID>
+<ownerDesignName>TAREA_SEMANA_4_TALLER_MECANICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_CONTACTO" id="A8ED2B92-08CE-D73A-5A37-D64DD721EF8F">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-02 22:19:47 UTC</createdTime>
+<generatorID>E2FBE3D5-8DA5-1547-8A47-6D398CDA365B</generatorID>
+<ownerDesignName>TAREA_SEMANA_4_TALLER_MECANICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL_CONTACTO" id="05E7254B-4E01-4A3D-9CCB-08393A4FFE43">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-02 22:19:47 UTC</createdTime>
+<generatorID>C7F220CF-1DE6-ED3B-956C-59D10E05CF71</generatorID>
+<ownerDesignName>TAREA_SEMANA_4_TALLER_MECANICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO_CONTACTO" id="EF1EA397-3C28-A67B-DF1A-F08592988DA4">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-02 22:19:47 UTC</createdTime>
+<generatorID>2A8A8396-7D4F-7918-F6D3-F80BAA16426D</generatorID>
+<ownerDesignName>TAREA_SEMANA_4_TALLER_MECANICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLIENTE_ID_CLIENTE" id="464D2C34-1F1D-9CED-D577-28FBBAEDA0A3">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-02 22:19:47 UTC</createdTime>
+<generatorID>3B2055D0-3EE8-2845-EFFA-7CB0B408D2E6</generatorID>
+<ownerDesignName>TAREA_SEMANA_4_TALLER_MECANICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8DEAC8A9-C26A-16A6-2761-7546AA342F7C" referredColumn="E4A45EE8-1C32-12EF-6FC3-9FA719A57E10"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B4D30C51-0DF7-94B1-AA9C-53EA38180ADA" name="CONTACTO_PK">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-02 22:19:47 UTC</createdTime>
+<generatorID>BB5AB435-0091-1457-CB5B-F906A1ED110C</generatorID>
+<ownerDesignName>TAREA_SEMANA_4_TALLER_MECANICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93224E9C-1D81-CD0D-9B7B-38ADCFE6BEA7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC02F2F6-30C2-F208-BDDA-BB1EB2085B65" name="CONTACTO_CLIENTE_FK">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-02 22:19:47 UTC</createdTime>
+<generatorID>1E1DAB76-9FFE-54D1-52F9-4E5398DC8884</generatorID>
+<ownerDesignName>TAREA_SEMANA_4_TALLER_MECANICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="464D2C34-1F1D-9CED-D577-28FBBAEDA0A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

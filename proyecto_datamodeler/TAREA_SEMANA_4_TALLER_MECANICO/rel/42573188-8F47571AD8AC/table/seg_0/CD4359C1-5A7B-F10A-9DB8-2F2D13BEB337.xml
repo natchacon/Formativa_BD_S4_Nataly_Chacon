@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CD4359C1-5A7B-F10A-9DB8-2F2D13BEB337" name="DETALLE_SERVICIO_REPUESTO">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-02 22:19:47 UTC</createdTime>
+<generatorID>E10C63F1-A737-A6C8-68F3-524AD22F9FE7</generatorID>
+<ownerDesignName>TAREA_SEMANA_4_TALLER_MECANICO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="HH_REAL_CAMBIO_REPUESTO" id="AD01070F-3879-B494-6E5B-3F21DA557B1B">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-02 22:19:47 UTC</createdTime>
+<generatorID>F2F66635-9E1E-0A4D-6CFD-3078B1BC3D66</generatorID>
+<ownerDesignName>TAREA_SEMANA_4_TALLER_MECANICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REPUESTO_ID_REPUESTO" id="B98CBF7C-20A5-E172-B0C4-309689413FD4">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-02 22:19:47 UTC</createdTime>
+<generatorID>89B4D3F1-AFF8-7930-BE60-E9A90BC662F7</generatorID>
+<ownerDesignName>TAREA_SEMANA_4_TALLER_MECANICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="962E39B8-A1C2-097E-D4D8-F469611416DE" referredColumn="AFE77B59-D1E2-F54E-2E18-B7320E8C8D85"/>
+</associations>
+</Column>
+<Column name="DETALLE_SERVICIOS_NUMERO_LINEA_ORDEN" id="51FC22CF-FD2C-3F57-30B8-27F4935933DC">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-02 22:19:47 UTC</createdTime>
+<generatorID>2A7380DE-4448-C2FE-DDC8-642D5327A3EB</generatorID>
+<ownerDesignName>TAREA_SEMANA_4_TALLER_MECANICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9D6D1C5-A46B-EE07-77BE-5C636615EB36" referredColumn="B5B979E4-2954-84D1-493E-6AA47D5A8017"/>
+</associations>
+</Column>
+<Column name="DETALLE_SERVICIOS_ORDEN_DE_ATENCION_ID_ORDEN_ATENCION" id="B6E9E2E0-F90A-A89F-E8D1-05AA1A312015">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-02 22:19:47 UTC</createdTime>
+<generatorID>450D5F25-7BEB-A829-535C-ED6698064A93</generatorID>
+<ownerDesignName>TAREA_SEMANA_4_TALLER_MECANICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9D6D1C5-A46B-EE07-77BE-5C636615EB36" referredColumn="38ACBF74-6A15-0A0B-DBDF-9F57134AB186"/>
+</associations>
+</Column>
+<Column name="OBSERVACION" id="42DC5B48-3FB0-498E-36AC-76D01197F800">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-02 22:19:47 UTC</createdTime>
+<generatorID>D2462EA7-0B91-EDC7-5877-A1EE9B513F7B</generatorID>
+<ownerDesignName>TAREA_SEMANA_4_TALLER_MECANICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD" id="2FB4971B-D690-B779-AAFC-75A29168EACE">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-02 22:19:47 UTC</createdTime>
+<generatorID>E22FC9B6-91F4-BF3D-AF0F-34EDDD3AEF00</generatorID>
+<ownerDesignName>TAREA_SEMANA_4_TALLER_MECANICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="705600C0-A49C-4E90-37D6-45BF6457B705" name="DETALLE_SERVICIO_REPUESTO_PK">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-02 22:19:47 UTC</createdTime>
+<generatorID>27AA73F1-B728-F29A-32DE-8C8E07DC23D0</generatorID>
+<ownerDesignName>TAREA_SEMANA_4_TALLER_MECANICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6E9E2E0-F90A-A89F-E8D1-05AA1A312015"/>
+<colUsage columnID="51FC22CF-FD2C-3F57-30B8-27F4935933DC"/>
+<colUsage columnID="B98CBF7C-20A5-E172-B0C4-309689413FD4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82E71FBF-7F3A-BE26-A9DF-2658E6ACCF53" name="DETALLE_SERVICIO_REPUESTO_REPUESTO_FK">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-02 22:19:47 UTC</createdTime>
+<generatorID>48D6E575-92D2-CFAC-6219-D59F09D0EE39</generatorID>
+<ownerDesignName>TAREA_SEMANA_4_TALLER_MECANICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B98CBF7C-20A5-E172-B0C4-309689413FD4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63365E11-541C-7D09-8047-4C49EB599638" name="DETALLE_SERVICIO_REPUESTO_DETALLE_SERVICIOS_FK">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-02 22:19:47 UTC</createdTime>
+<generatorID>B860CA1E-B3B4-B6D2-91FB-440107D9538C</generatorID>
+<ownerDesignName>TAREA_SEMANA_4_TALLER_MECANICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51FC22CF-FD2C-3F57-30B8-27F4935933DC"/>
+<colUsage columnID="B6E9E2E0-F90A-A89F-E8D1-05AA1A312015"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
